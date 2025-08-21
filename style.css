@@ -36,7 +36,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 11vh;
+  background-color: #d1d1d1;
 }
 
 .nav-links {
@@ -345,7 +346,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: normal;
   gap: 0.5rem;
 }
 
