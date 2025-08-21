@@ -184,6 +184,7 @@ section {
 
 .section__text p {
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .section__text__p1 {
