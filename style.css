@@ -176,6 +176,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  justify-content: center;
 }
 
 .section__text {
