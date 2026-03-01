@@ -304,13 +304,18 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: rgb(247, 247, 247);
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(247, 247, 247);
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .section-container {
@@ -375,7 +380,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
@@ -385,6 +390,13 @@ article .icon {
   color: black;
 }
 
+.project-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: rem;
+}
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
